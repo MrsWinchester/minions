@@ -1,0 +1,37 @@
+# --- Python bytecode / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Django runtime files ---
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+*.log
+
+# --- Environment / secrets ---
+.env
+.env.*
+
+# --- Sphinx temp builds (keep final HTML in ./docs) ---
+docs_src/_build/
+_build/
+
+# --- Tests / coverage (optional) ---
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
