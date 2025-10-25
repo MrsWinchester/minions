@@ -26,3 +26,7 @@ class SignUp(CreateView):
     form_class = UserCreationForm
     template_name = 'registration/signup.html'
     success_url = reverse_lazy('login')
+
+def shows(request):
+    """List upcoming/past shows ordered by date."""
+
